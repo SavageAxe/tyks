@@ -4,6 +4,7 @@
   "required": [
     "region",
     "namespace",
+    "cluster",
     "applicationName",
     "values"
   ],
@@ -15,6 +16,10 @@
     "namespace": {
       "type": "string",
       "description": "Kubernetes namespace"
+    },
+    "cluster": {
+      "type": "string",
+      "description": "Kubernetes cluster"
     },
     "applicationName": {
       "type": "string",
