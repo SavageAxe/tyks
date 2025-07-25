@@ -9,9 +9,6 @@
       "type": "string",
       "enum": ["sheker1", "sheker2"]
     },
-    "values": {
-      "type": "object"
-    },
     "applicationName": {
       "type": "string"
     }
