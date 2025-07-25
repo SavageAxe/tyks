@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "required": ["namespace", "region", "values", "applicationName"],
+  "properties": {
+    "namespace": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string",
+      "enum": ["sheker1", "sheker2"]
+    },
+    "values": {
+      "type": "object"
+    },
+    "applicationName": {
+      "type": "string"
+    }
+  }
+}
