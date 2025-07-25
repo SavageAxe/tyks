@@ -17,10 +17,6 @@
       "type": "string",
       "description": "Kubernetes namespace"
     },
-    "cluster": {
-      "type": "string",
-      "description": "Kubernetes cluster name"
-    },
     "applicationName": {
       "type": "string",
       "description": "Name of the application"
