@@ -4,7 +4,6 @@
   "required": [
     "region",
     "namespace",
-    "cluster",
     "applicationName",
     "values"
   ],
