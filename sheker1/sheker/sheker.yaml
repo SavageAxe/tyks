@@ -1,0 +1,7 @@
+applicationName: sheker
+namespace: sheker
+region: sheker1
+values:
+  orgName: sheker
+  splunk:
+    url: https://sheker.sheker
