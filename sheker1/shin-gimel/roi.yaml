@@ -1,6 +1,3 @@
-applicationName: roi
-namespace: shin-gimel
-region: sheker1
 values:
   orgName: HAGNASH
   splunk:
