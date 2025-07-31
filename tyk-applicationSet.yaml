@@ -1,0 +1,30 @@
+apiVersion: argoproj.io/v1alpha1
+kind: ApplicationSet
+metadata:
+  name: generate-apps-from-path
+spec:
+  generators:
+    - git:
+        repoURL: git@github.com:SavageAxe/k8s-provisions-backstage.git
+        revision: HEAD
+        files:
+          - path: '*/*/*.yaml'  # captures three levels
+  template:
+    metadata:
+      name: '{{path[0]}}-{{path[1]}}-{{resource}}-{{path[2].basename}}'
+    spec:
+      project: default
+      source:
+        chart: nginx
+        repoURL: https://charts.bitnami.com/bitnami
+        targetRevision: 15.0.2
+        helm:
+          valueFiles:
+            - '{{path[2].basename}}.yaml'
+      destination:
+        server: http://kubernetes.default.svc
+        namespace: '{{path[1]}}'
+      syncPolicy:
+        automated:
+          prune: true
+          selfHeal: true
