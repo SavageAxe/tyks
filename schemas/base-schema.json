@@ -1,5 +1,4 @@
 {
-  "$id": "base-schema.json",
   "type": "object",
   "required": ["namespace", "region", "values", "applicationName"],
   "properties": {
