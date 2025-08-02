@@ -1,5 +1,4 @@
 {
-  "$id": "schema-0.1.0.json",
   "title": "ProvisionRequest",
   "allOf": [
     { "$ref": "base-schema.json" },
