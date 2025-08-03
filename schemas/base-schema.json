@@ -3,14 +3,17 @@
   "required": ["namespace", "region", "values", "applicationName"],
   "properties": {
     "namespace": {
-      "type": "string"
+      "type": "string",
+      "examples": ["perimeter"]
     },
     "region": {
       "type": "string",
-      "enum": ["sheker1", "sheker2"]
+      "enum": ["sheker1", "sheker2"],
+      "examples": ["sheker1"]
     },
     "applicationName": {
-      "type": "string"
+      "type": "string",
+      "examples": ["tyk-prov-example"]
     }
   }
 }
