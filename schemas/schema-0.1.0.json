@@ -4,10 +4,10 @@
     { "$ref": "base-schema.json" },
     {
       "type": "object",
+      "required": ["orgName", "splunk"],
       "properties": {
         "values": {
           "type": "object",
-          "required": ["orgName", "splunk"],
           "properties": {
             "orgName": {
               "type": "string",
