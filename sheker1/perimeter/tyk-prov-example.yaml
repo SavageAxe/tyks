@@ -1,0 +1,4 @@
+values:
+  orgName: hagnash
+  splunk:
+    url: https://splunk.local:8080
