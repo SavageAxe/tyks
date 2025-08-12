@@ -1,0 +1,6 @@
+values:
+  orgName: dsadsa
+  splunk:
+    url: !!python/object:pydantic.networks.HttpUrl
+      _url: !!python/object/new:pydantic_core._pydantic_core.Url
+      - https://splunk.local:8080/
