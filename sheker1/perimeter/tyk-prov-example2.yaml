@@ -1,0 +1,2 @@
+"values:\n  orgName: hagnash\n  splunk:\n    url: !!python/object:pydantic.networks.HttpUrl\n\
+  \      _url: !!python/object/new:pydantic_core._pydantic_core.Url\n      - https://splunk.local:8080/\n"
