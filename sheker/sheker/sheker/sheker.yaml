@@ -1,1 +1,8 @@
-Sheker!
+applicationName: sheker
+cluster: sheker
+namespace: sheker
+region: sheker
+values:
+  orgName: sheker
+  splunk:
+    url: https://sheker.sheker
