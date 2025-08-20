@@ -7,7 +7,6 @@
       "properties": {
         "values": {
           "type": "object",
-          "required": ["orgName"],
           "properties": {
             "orgName": {
               "type": "string",
