@@ -4,16 +4,16 @@
   "properties": {
     "namespace": {
       "type": "string",
-      "example": "perimeter"
+      "examples": "perimeter"
     },
     "region": {
       "type": "string",
       "enum": ["sheker1", "sheker2", "sheker3", "try"],
-      "example": "sheker1"
+      "examples": "sheker1"
     },
     "applicationName": {
       "type": "string",
-      "example": "tyk-prov-example"
+      "examples": "tyk-prov-examples"
     }
   }
 }
