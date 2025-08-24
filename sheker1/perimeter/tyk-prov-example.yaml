@@ -1,3 +1,4 @@
 values:
-  orgName: hagnash
-  splunk: null
+  orgName: hagnash-roi
+  splunk:
+    url: https://splunk.local:8080/
