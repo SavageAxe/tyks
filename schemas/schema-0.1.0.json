@@ -12,7 +12,7 @@
             "orgName": {
               "type": "string",
               "description": "Organization name",
-              "example": "hagnash"
+              "example": "hagnash2"
             },
             "splunk": {
               "type": "object",
