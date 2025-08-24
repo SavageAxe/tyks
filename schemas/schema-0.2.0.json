@@ -1,0 +1,34 @@
+{
+  "title": "ProvisionRequests",
+  "allOf": [
+    { "$ref": "base-schema.json" },
+    {
+      "type": "object",
+      "properties": {
+        "values": {
+          "type": "object",
+          "properties": {
+            "orgName": {
+              "type": "string",
+              "description": "Organization name",
+              "examples": "hagnash"
+            },
+            "splunk": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "pattern": "^https?://.*",
+                  "description": "Splunk URL (must start with http:// or https://)",
+                  "examples": "https://splunk.local:8080"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    }
+  ]
+}
