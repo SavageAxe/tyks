@@ -13,7 +13,7 @@
     },
     "applicationName": {
       "type": "string",
-      "example": "tyk-prov-example-blabla"
+      "example": "tyk-prov-example"
     }
   }
 }
