@@ -9,7 +9,7 @@
     "region": {
       "type": "string",
       "enum": ["sheker1", "sheker2", "sheker3", "try", "dev"],
-      "example": "red"
+      "example": "dev"
     },
     "applicationName": {
       "type": "string",
