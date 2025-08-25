@@ -11,7 +11,7 @@
           "properties": {
             "orgName": {
               "type": "string",
-              "description": "Organization name",
+              "description": "Your organization name",
               "example": "hagnash-roi"
             },
             "splunk": {
