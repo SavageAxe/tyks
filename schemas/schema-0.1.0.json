@@ -25,6 +25,21 @@
                   "example": "https://splunk.local:8080"
                 }
               },
+            "secrets": {
+              "type": "object",
+              "description": "Sensitive values such as tokens, passwords or API keys",
+              "properties": {
+                "splunkToken": {
+                  "type": "string",
+                  "description": "Splunk authentication token",
+                  "example": "abcdef1234567890"
+                },
+                "dbPassword": {
+                  "type": "string",
+                  "description": "Database password",
+                  "example": "P@ssw0rd!"
+                }
+              },
               "additionalProperties": false
             }
           },
