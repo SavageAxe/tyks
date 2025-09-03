@@ -25,6 +25,8 @@
                   "example": "https://splunk.local:8080"
                 }
               },
+              "additionalProperties": false
+            },
             "secrets": {
               "type": "object",
               "description": "Sensitive values such as tokens, passwords or API keys",
@@ -38,8 +40,7 @@
                   "type": "string",
                   "description": "Database password",
                   "example": "P@ssw0rd!"
-                },
-                "additionalProperties": false
+                }
               },
               "additionalProperties": false
             }
@@ -49,5 +50,5 @@
       }
     }
   ],
-  "additionalProperties": false,
+  "additionalProperties": false
 }
