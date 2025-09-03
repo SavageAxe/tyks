@@ -38,7 +38,8 @@
                   "type": "string",
                   "description": "Database password",
                   "example": "P@ssw0rd!"
-                }
+                },
+                "additionalProperties": false
               },
               "additionalProperties": false
             }
