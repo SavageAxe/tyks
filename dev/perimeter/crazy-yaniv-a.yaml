@@ -1,0 +1,6 @@
+orgName: hagnash-bla
+splunk:
+  url: https://splunk.local:8080/
+secrets:
+  splunkToken: abcdef1234567890
+  dbPassword: P@ssw0rd!
