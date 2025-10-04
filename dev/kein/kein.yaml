@@ -1,0 +1,11 @@
+relations:
+- girlfriend
+sensitivity: low
+alertChannels:
+- sms
+premium:
+  enabled: false
+  autoPurchaseLimits:
+    dailyUSD: 0.0
+  logetivity: 1
+  autoRenew: true
